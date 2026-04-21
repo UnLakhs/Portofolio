@@ -24,7 +24,7 @@ const Projects = () => {
         <a className="hover:opacity-70 transition" href="./AboutMe">
           ← About Me
         </a>
-        <a className="hover:opacity-70 transition" href="./Tools">
+        <a className="hover:opacity-70 transition" href="./Skills">
           Skills & Tools →
         </a>
       </div>
