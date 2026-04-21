@@ -8,6 +8,7 @@ export interface Project {
   featured?: boolean;
   status?: "live" | "paused" | "restricted";
   projectNotes?: string;
+  features?: string[];
 }
 
 export const projects: Project[] = [
@@ -16,7 +17,14 @@ export const projects: Project[] = [
     title: "Water4You",
     description:
       "A full-stack web application for managing customers and sending automated SMS reminders for water filter replacements.",
-    tech: ["Next.js", "TypeScript", "MongoDB", "Tailwind CSS", "Twilio API"],
+    tech: [
+      "Next.js",
+      "TypeScript",
+      "MongoDB",
+      "Tailwind CSS",
+      "Twilio API",
+      "Vercel",
+    ],
     github: "https://github.com/UnLakhs/water4you-dashboard",
     images: [
       "/projects/water4you/screenshot-1.png",
@@ -28,6 +36,13 @@ export const projects: Project[] = [
     status: "restricted",
     projectNotes:
       "This web app is only accessible to the business owner and their employees, as it contains sensitive customer information. I designed and implemented all features of this project.",
+    features: [
+      "Role-based authentication for owner and staff",
+      "Customer dashboard with full CRUD functionality",
+      "Automated SMS reminders using Twilio API",
+      "Search and pagination for managing customer records",
+      "Notification logging for sent messages",
+    ],
   },
   {
     id: "cinegame-critic",
@@ -47,6 +62,14 @@ export const projects: Project[] = [
     status: "paused",
     projectNotes:
       "This project was built as part of a team, where I contributed to both frontend and backend development. I co-designed all features regarding user authentication and I designed and implemented all Movies features.",
+    features: [
+      "User authentication and account management",
+      "Movie and game review system with ratings",
+      "Watchlist for saving movies and games",
+      "Search functionality for movies and games",
+      "Integration with external APIs for dynamic content",
+      "Movie Recommendations",
+    ],
   },
   {
     id: "portfolio",
