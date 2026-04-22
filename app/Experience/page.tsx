@@ -11,7 +11,7 @@ const Experience = () => {
           Experience
         </h1>
 
-        <p className="max-w-4xl text-lg font-light leading-8 text-foreground/80">
+        <p className="max-w-4xl lg:max-w-5xl text-lg font-light leading-8 text-foreground/80">
           My experience so far includes internship work and real-world project
           development, where I focused on building and maintaining web
           applications using modern frontend and backend technologies.

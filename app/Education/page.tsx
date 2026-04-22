@@ -9,7 +9,7 @@ const Education = () => {
           Education
         </h1>
 
-        <p className="max-w-4xl text-lg font-light leading-8 text-foreground/80">
+        <p className="max-w-4xl lg:max-w-5xl text-lg font-light leading-8 text-foreground/80">
           My academic background provided a strong foundation in computer
           science and software development, which I continue to build on through
           practical projects.
