@@ -12,6 +12,35 @@ import {
   SiVercel,
 } from "react-icons/si";
 
+export const experiences = [
+  {
+    role: "Full-Stack Developer Intern",
+    company: "Omega Systems",
+    period: "01/07/2024 – 30/09/2024",
+    description:
+      "Worked in a team environment on the development and maintenance of web applications.",
+    points: [
+      "Developed and maintained web application features using HTML, CSS, JavaScript, PHP, and WordPress.",
+      "Collaborated with team members using Git-based workflows.",
+      "Improved performance and stability by fixing bugs and supporting ongoing development tasks.",
+    ],
+    tech: ["HTML", "CSS", "JavaScript", "PHP", "WordPress", "Git"],
+  },
+  {
+    role: "Freelance Full-Stack Developer",
+    company: "Water4You Project",
+    period: "20/01/2025 - 22/05/2025",
+    description:
+      "Designed and developed a full-stack dashboard for customer management and automated SMS reminders.",
+    points: [
+      "Built role-based authentication for Admin and Worker access.",
+      "Implemented customer management features including search, pagination, and CRUD operations.",
+      "Integrated automated SMS reminders and notification logging.",
+    ],
+    tech: ["Next.js", "TypeScript", "MongoDB", "Tailwind CSS", "Twilio API"],
+  },
+];
+
 export const skillGroups = [
   {
     title: "Frontend",
