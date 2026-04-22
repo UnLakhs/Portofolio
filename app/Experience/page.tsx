@@ -65,7 +65,7 @@ const Experience = () => {
         ))}
       </div>
 
-      <div className="mt-10 flex justify-between">
+      <div className="my-10 flex justify-between">
         <Link className="transition hover:opacity-70" href="/Skills">
           ← Skills & Tools
         </Link>

@@ -39,7 +39,7 @@ const AboutMe = () => {
         join a team where I can keep improving and gain real-world experience.
       </p>
 
-      <div className="flex mt-10 justify-between">
+      <div className="flex my-10 justify-between">
         <a className="hover:opacity-70 transition" href="/">
           ← Introduction
         </a>

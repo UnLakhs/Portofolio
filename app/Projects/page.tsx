@@ -20,7 +20,7 @@ const Projects = () => {
         ))}
       </div>
 
-      <div className="flex mt-10 justify-between">
+      <div className="flex my-10 justify-between">
         <a className="hover:opacity-70 transition" href="./AboutMe">
           ← About Me
         </a>

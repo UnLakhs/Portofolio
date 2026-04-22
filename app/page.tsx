@@ -49,7 +49,7 @@ const Home = () => {
       </div>
 
       {/* Next page */}
-      <a className="ml-auto hover:opacity-70 transition" href="./AboutMe">About Me →</a>
+      <a className="ml-auto my-10 hover:opacity-70 transition" href="./AboutMe">About Me →</a>
     </div>
   );
 };
