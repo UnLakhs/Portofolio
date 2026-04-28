@@ -31,13 +31,13 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full bg-background">
-        <div className="flex min-h-screen flex-col md:flex-row">
+        <main className="flex min-h-screen flex-col md:flex-row">
           {" "}
           <Nav />
             <div className="w-full flex-1 px-4 py-6 md:px-8 lg:px-10">
             {children}
           </div>
-        </div>
+        </main>
       </body>
     </html>
   );
