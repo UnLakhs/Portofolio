@@ -4,10 +4,10 @@ import { FiFileText } from "react-icons/fi";
 
 const Home = () => {
   return (
-    <section className="w-full max-w-5xl items-center">
-      <div className="flex flex-col gap-10 items-center">
-        <h1 className="text-4xl font-bold ">Kyrgidis Apostolos</h1>
-        <p className="max-w-5xl text-xl text-foreground text-left font-light">
+    <section className="w-full max-w-3xl lg:max-w-5xl space-y-4">
+      <div className="flex flex-col gap-6 items-center">
+        <h1 className="text-3xl font-bold tracking-tight sm:text-4xl">Kyrgidis Apostolos</h1>
+        <p className="max-w-3xl lg:max-w-5xl text-lg font-light leading-8 text-foreground/80">
           I am a Fullstack developer focused on building real-world web
           applications using Next.js, TypeScript, and MongoDB. I have developed
           production-ready projects, including a SaaS platform for automated SMS
