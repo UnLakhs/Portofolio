@@ -160,7 +160,7 @@ export const projects: Project[] = [
     title: "Portfolio",
     description:
       "A personal portfolio website to showcase my projects and skills.",
-    tech: ["Next.js", "TypeScript", "Tailwind CSS"],
+    tech: ["Next.js", "TypeScript", "Tailwind CSS", "Railway"],
     github: "https://github.com/UnLakhs/portfolio",
     images: [
       "/projects/portfolio/screenshot-1.png",
